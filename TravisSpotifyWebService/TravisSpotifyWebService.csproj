@@ -122,42 +122,13 @@
   <ItemGroup>
     <Compile Include="App_Start\SwaggerConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Auth\Authentication.cs" />
-    <Compile Include="Auth\AuthenticationToken.cs" />
     <Compile Include="Controllers\SpotifyCallController.cs" />
-    <Compile Include="Enum\AlbumType.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Helper\HttpHelper.cs" />
-    <Compile Include="Models\Album.cs" />
-    <Compile Include="Models\Artist.cs" />
-    <Compile Include="Models\BaseModel.cs" />
-    <Compile Include="Models\ExternalUrl.cs" />
-    <Compile Include="Models\Image.cs" />
-    <Compile Include="Models\Page.cs" />
-    <Compile Include="SpotifyModel\tracksearchresult.cs" />
-    <Compile Include="SpotifyModel\track.cs" />
-    <Compile Include="SpotifyModel\playlisttrack.cs" />
+    <Compile Include="Models\Photo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SpotifyModel\accesstoken.cs" />
-    <Compile Include="SpotifyModel\album.cs" />
-    <Compile Include="SpotifyModel\albumarray.cs" />
-    <Compile Include="SpotifyModel\albumsearchresult.cs" />
-    <Compile Include="SpotifyModel\artist.cs" />
-    <Compile Include="SpotifyModel\artistarray.cs" />
-    <Compile Include="SpotifyModel\artistsearchresult.cs" />
-    <Compile Include="SpotifyModel\external_ids.cs" />
-    <Compile Include="SpotifyModel\external_urls.cs" />
-    <Compile Include="SpotifyModel\featuredplaylistssearchresult.cs" />
-    <Compile Include="SpotifyModel\followers.cs" />
-    <Compile Include="SpotifyModel\image.cs" />
-    <Compile Include="SpotifyModel\page.cs" />
-    <Compile Include="SpotifyModel\playlist.cs" />
-    <Compile Include="SpotifyModel\playlistsearchresult.cs" />
-    <Compile Include="SpotifyModel\savedtrack.cs" />
-    <Compile Include="SpotifyModel\trackarray.cs" />
-    <Compile Include="SpotifyModel\user.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
